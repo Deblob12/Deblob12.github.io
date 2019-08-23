@@ -26,7 +26,7 @@ projects:
     archived: false
     forks: false
     projects:
-      ["personal-website",
+      ["Deblob12.github.io",
       "AP-CS",
       "cs50",]
     # - repo-name
