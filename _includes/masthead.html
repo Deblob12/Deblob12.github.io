@@ -5,9 +5,16 @@
 {% endif %}
 
 <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
-<h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
+<h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed text-large">Jeffrey Chiu</h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-  {{ user.bio }}
+  Hi! My name is Jeffrey Chiu and I'm a current undergrad at harvard studying Computer Science and Statistics!
+  I'm a huge fan of most anything that requires deep thinking, but currently topics that excite me the
+  most are Cloud Computing, Chaos Theory, and Encryption Mechanisms!
+  <br>
+  <br>
+  I am currently looking for Software Engineering Internships for the Summer of 2020, and if anybody would like to
+  reach out about an opportunity, or simply to chat, please contact me at <a href="mailto:jeffrey_chiu@college.harvard.edu">
+  [my first name]_[my_last name]@college.harvard.edu</a>!
 </p>
 
 {% if include.metadata %}
@@ -47,6 +54,6 @@
         {% endfor %}
       </div>
     {% endif %}
-      <a href="../Chiu.Resume.2019.pdf" target="_blank"><span title="Hire me" class="d-inline-block f3 rounded-2 text-white bg-blue py-2 px-5">Resume/CV</span></a>
+      <a href="../Chiu.Resume.2019.pdf" target="_blank"><span title="Hire me" class="d-inline-block f2 rounded-2 text-primary">Resume/CV</span></a>
   </div>
 {% endif %}
